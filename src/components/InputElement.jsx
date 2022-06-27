@@ -15,6 +15,8 @@ class InputElement extends React.Component {
           justifyContent: this.props.elementPosition,
           margin: '2px',
           padding: '5px',
+          fontSize: '1.3rem',
+          fontWeight: 'bolder',
         }}
       >
         {this.props.value}
@@ -24,7 +26,7 @@ class InputElement extends React.Component {
 }
 InputElement.defaultProps = {
   width: '25%',
-  backgroundColor: 'gray',
+  backgroundColor: '#E0E0E0',
   elementPosition: 'center',
 };
 
