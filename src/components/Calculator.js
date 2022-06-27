@@ -1,5 +1,6 @@
 import React from 'react';
 import InputElement from './InputElement';
+import './Calculator.css';
 
 class Calculator extends React.Component {
   render() {
