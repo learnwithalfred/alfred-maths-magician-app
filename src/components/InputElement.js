@@ -8,12 +8,12 @@ class InputElement extends React.Component {
     const {
       width, backgroundColor, elementPosition, value,
     } = this.props;
+
     InputElement.propTypes = {
       width: PropTypes.string,
       backgroundColor: PropTypes.string,
       elementPosition: PropTypes.string,
-      value: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
-        .isRequired,
+      value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     };
     return (
       <div
@@ -40,6 +40,7 @@ InputElement.defaultProps = {
   width: '25%',
   backgroundColor: '#E0E0E0',
   elementPosition: 'center',
+  value: '',
 };
 
 export default InputElement;
