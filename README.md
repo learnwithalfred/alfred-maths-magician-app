@@ -33,6 +33,12 @@ Run the following command to get a working version locally
 - `npm install`
 - `npm start`
 
+## Test
+
+Run this command to test the application
+
+`npm test`
+
 ## Author
 
 Alfred Boateng
