@@ -1,10 +1,33 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import InputElement from './InputElement';
+import calculate from '../logic/calculate';
 import './Calculator.css';
+import Button from './button';
 
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      obj: { total: null, next: null, operation: null },
+    };
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(buttonName) {
+    this.setState((state) => ({
+      obj: {
+        ...state.obj,
+        ...calculate(state.obj, buttonName),
+      },
+    }));
+  }
+
   render() {
+    const { obj } = this.state;
+    const results = obj.next ? obj.next : obj.total;
+
     const rowStyles = {
       width: '100%',
       color: 'black',
@@ -17,6 +40,7 @@ class Calculator extends React.Component {
     };
 
     const orangeColor = '#F5913E';
+
     return (
       <>
         <div style={containerStyles}>
@@ -24,42 +48,62 @@ class Calculator extends React.Component {
             <InputElement
               width="100%"
               backgroundColor="#858694"
-              value="0"
+              value={results}
               elementPosition="flex-end"
             />
           </div>
           <div style={rowStyles}>
-            <InputElement value="AC" />
-            <InputElement value="+/-" />
-            <InputElement value="%" />
-            <InputElement value="÷" backgroundColor={orangeColor} />
+            <Button text="AC" handleClick={this.handleClick} />
+            <Button handleClick={this.handleClick} text="+/-" />
+            <Button handleClick={this.handleClick} text="%" />
+            <Button
+              handleClick={this.handleClick}
+              text="÷"
+              backgroundColor={orangeColor}
+            />
           </div>
 
           <div style={rowStyles}>
-            <InputElement value={7} />
-            <InputElement value={8} />
-            <InputElement value={9} />
-            <InputElement value="X" backgroundColor={orangeColor} />
+            <Button handleClick={this.handleClick} text="7" />
+            <Button handleClick={this.handleClick} text="8" />
+            <Button handleClick={this.handleClick} text="9" />
+            <Button
+              handleClick={this.handleClick}
+              text="x"
+              backgroundColor={orangeColor}
+            />
           </div>
 
           <div style={rowStyles}>
-            <InputElement value={4} />
-            <InputElement value={5} />
-            <InputElement value={6} />
-            <InputElement value="-" backgroundColor={orangeColor} />
+            <Button handleClick={this.handleClick} text="4" />
+            <Button handleClick={this.handleClick} text="5" />
+            <Button handleClick={this.handleClick} text="6" />
+            <Button
+              handleClick={this.handleClick}
+              text="-"
+              backgroundColor={orangeColor}
+            />
           </div>
 
           <div style={rowStyles}>
-            <InputElement value={1} />
-            <InputElement value={2} />
-            <InputElement value={3} />
-            <InputElement value="+" backgroundColor={orangeColor} />
+            <Button handleClick={this.handleClick} text="1" />
+            <Button handleClick={this.handleClick} text="2" />
+            <Button handleClick={this.handleClick} text="3" />
+            <Button
+              handleClick={this.handleClick}
+              text="+"
+              backgroundColor={orangeColor}
+            />
           </div>
 
           <div style={rowStyles}>
-            <InputElement value={0} width="53%" />
-            <InputElement value="." />
-            <InputElement value="=" backgroundColor={orangeColor} />
+            <Button handleClick={this.handleClick} text="0" width="51%" />
+            <Button handleClick={this.handleClick} text="." />
+            <Button
+              handleClick={this.handleClick}
+              text="="
+              backgroundColor={orangeColor}
+            />
           </div>
         </div>
       </>
