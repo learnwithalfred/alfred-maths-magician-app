@@ -2,7 +2,6 @@ import React from 'react';
 import InputElement from './InputElement';
 
 class Calculator extends React.Component {
-  state = {};
   render() {
     const rowStyles = {
       width: '100%',

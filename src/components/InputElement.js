@@ -1,7 +1,6 @@
 import React from 'react';
 
 class InputElement extends React.Component {
-  state = {};
   render() {
     return (
       <div
