@@ -27,36 +27,36 @@ class Calculator extends React.Component {
               elementPosition="flex-end"
             />
           </div>
-
           <div style={rowStyles}>
-            <InputElement value={'7'} />
-            <InputElement value={'8'} />
-            <InputElement value={'9'} />
+            <InputElement value="AC" />
+            <InputElement value="+/-" />
+            <InputElement value="%" />
             <InputElement value={'÷'} backgroundColor={orangeColor} />
           </div>
+
           <div style={rowStyles}>
-            <InputElement value={'7'} />
-            <InputElement value={'8'} />
-            <InputElement value={'9'} />
+            <InputElement value={7} />
+            <InputElement value={8} />
+            <InputElement value={9} />
             <InputElement value={'X'} backgroundColor={orangeColor} />
           </div>
 
           <div style={rowStyles}>
-            <InputElement value={'4'} />
-            <InputElement value={'5'} />
-            <InputElement value={'6'} />
+            <InputElement value={4} />
+            <InputElement value={5} />
+            <InputElement value={6} />
             <InputElement value={'-'} backgroundColor={orangeColor} />
           </div>
 
           <div style={rowStyles}>
-            <InputElement value={'1'} />
-            <InputElement value={'2'} />
-            <InputElement value={'3'} />
+            <InputElement value={1} />
+            <InputElement value={2} />
+            <InputElement value={3} />
             <InputElement value={'+'} backgroundColor={orangeColor} />
           </div>
 
           <div style={rowStyles}>
-            <InputElement value={'0'} width="53%" />
+            <InputElement value={0} width="53%" />
             <InputElement value={'.'} />
             <InputElement value={'='} backgroundColor={orangeColor} />
           </div>

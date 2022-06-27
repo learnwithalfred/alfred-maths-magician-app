@@ -16,7 +16,6 @@ class InputElement extends React.Component {
           margin: '2px',
           padding: '5px',
           fontSize: '1.3rem',
-          fontWeight: 'bolder',
         }}
       >
         {this.props.value}
