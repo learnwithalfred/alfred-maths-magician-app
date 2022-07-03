@@ -11,7 +11,8 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          alfred boateng
+          {' '}
+          <span className="user-link">alfred boateng</span>
         </a>
       </span>
     </footer>
