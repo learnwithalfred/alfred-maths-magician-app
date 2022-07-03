@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 1rem;
+  background-color: rgb(216, 224, 227);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.link-link {
+  padding: 0 0.5rem;
+}
