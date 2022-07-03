@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import Calculator from './components/Calculator';
@@ -9,7 +10,13 @@ class App extends React.Component {
     return (
       <>
         <Navbar />
-        <Calculator />
+        <div className="home-container">
+          <div className="left-side">
+            <span>Let's do some maths!</span>
+          </div>
+          <Calculator />
+        </div>
+
         <Footer />
       </>
     );
