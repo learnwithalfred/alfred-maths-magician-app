@@ -1,13 +1,14 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import './Home.css';
 
 function HomePage() {
   return (
     <>
       <Navbar />
       <div className="home">
-        <h1>Welcome to our page</h1>
+        <h1>Welcome to our page!</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
           labore vero commodi cum sequi hic, consectetur perferendis quo
