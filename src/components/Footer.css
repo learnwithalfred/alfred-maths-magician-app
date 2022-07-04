@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(216, 224, 227);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.user-link {
+  color: rgb(29, 29, 197);
+}
