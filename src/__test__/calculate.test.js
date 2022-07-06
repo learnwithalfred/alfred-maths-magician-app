@@ -1,4 +1,4 @@
-import calculate from './calculate';
+import calculate from '../logic/calculate';
 
 test('return empty array if button name is 0 and obj.next is 0 ', () => {
   const buttonName = '0';
