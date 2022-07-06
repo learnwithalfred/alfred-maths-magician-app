@@ -30,6 +30,11 @@ Run the following command to get a working version locally
 - `npm install`
 - `npm start`
 
+## Live demo links
+
+1. [Heroku](https://math-magician-alfred.herokuapp.com/)
+2. [Netlify](https://nkuranhy3-makes-great-sites.netlify.app)
+
 ## Test
 
 Run this command to test the application
