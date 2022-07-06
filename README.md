@@ -36,13 +36,19 @@ Run this command to test the application
 
 `npm test`
 
-## Author
+## Authors
 
 Alfred Boateng
 
 - GitHub: [@learnwithalfred](https://github.com/learnwithalfred)
 - Twitter: [@kb_alfred](https://twitter.com/kb_alfred)
 - LinkedIn: [Alfred Boateng](https://www.linkedin.com/in/alfred-boateng-704670138/)
+
+👤 **Bruk Teshome**
+
+- GitHub: [@githubhandle](https://github.com/bruk19)
+- Twitter: [@twitterhandle](https://twitter.com/Bruktesh)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/bruk-teshome-ab4325226)
 
 ## 🤝 Contributing
 
