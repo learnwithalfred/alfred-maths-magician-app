@@ -27,3 +27,10 @@ test('Subtract two numbers', () => {
   const operation = '-';
   expect(operate(num1, num2, operation)).toBe('0');
 });
+
+test('remainder of two numbers', () => {
+  const num1 = 10;
+  const num2 = 7;
+  const operation = '%';
+  expect(operate(num1, num2, operation)).toBe('3');
+});
