@@ -1,0 +1,512 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator page should render test if Calculator page is rendered 1`] = `
+<div
+  style={
+    Object {
+      "width": "500px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "display": "flex",
+        "flexWrap": "nowrap",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="input-element"
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#858694",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "flex-end",
+          "margin": "2px",
+          "padding": "5px",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "display": "flex",
+        "flexWrap": "nowrap",
+        "width": "100%",
+      }
+    }
+  >
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5913E",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      ÷
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "display": "flex",
+        "flexWrap": "nowrap",
+        "width": "100%",
+      }
+    }
+  >
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5913E",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      x
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "display": "flex",
+        "flexWrap": "nowrap",
+        "width": "100%",
+      }
+    }
+  >
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5913E",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      -
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "display": "flex",
+        "flexWrap": "nowrap",
+        "width": "100%",
+      }
+    }
+  >
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5913E",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      +
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "color": "black",
+        "display": "flex",
+        "flexWrap": "nowrap",
+        "width": "100%",
+      }
+    }
+  >
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "51%",
+        }
+      }
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E0E0E0",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="undefined undefined"
+      onClick={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5913E",
+          "border": "none",
+          "display": "flex",
+          "fontSize": "1.3rem",
+          "height": "50px",
+          "justifyContent": "center",
+          "margin": "2px",
+          "outline": "none",
+          "padding": "3px",
+          "width": "25%",
+        }
+      }
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
